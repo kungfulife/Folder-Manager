@@ -37,7 +37,7 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
@@ -82,14 +82,14 @@
         </Menu>
       </menus>
     </MenuBar>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
-      <children>
-        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+      <BorderPane VBox.vgrow="ALWAYS">
+         <center>
+        <Label alignment="CENTER" style="&#10;" text="Drag Files here" textAlignment="CENTER" textFill="#2f2f2f" wrapText="false" BorderPane.alignment="CENTER">
           <font>
-            <Font size="18.0" />
+            <Font size="36.0" />
           </font>
         </Label>
-      </children>
-    </AnchorPane>
+         </center>
+      </BorderPane>
   </children>
 </VBox>
